@@ -1,8 +1,9 @@
 ﻿
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE>
 
     <title>Index</title>
     <style type="text/css">
+       
         .BlueDiv { background-color: Navy; color:White;width:200px;}
         .RedDiv { background-color: Red; color:White; width:200px;}
         .style1
@@ -10,14 +11,15 @@
             width: 100%;
         }
     </style>
-    <script src="/Scripts/jquery-1.5.min.js" type="text/javascript"></script>
+    <script src="jquery-1.7.min.js" type="text/javascript"></script>
+    
     <script type="text/javascript">
         $(document).ready(function () {
 
             var imgs = $('img');
           //  alert('imgs.length);
              $('div[title*="Title"]').html('Updated Div Value due to Title');
-        })
+        });
 
     </script>
 </head>
@@ -58,7 +60,7 @@
         <span>Red div</span>
     </div>
     <p>
-        <img src="/Images/pluralsight.jpg" />
+        <img src="Images/pluralsight.jpg" />
     </p>
 
     <form id="form1" runat="server">
